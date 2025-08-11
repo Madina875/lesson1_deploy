@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  /* font-family: Arial, sans-serif; */
+  background-color: #903939;
+  color: rgb(57, 4, 4);
+}
+
+header {
+  background-image: url("../static/Anime\ wallpapers.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px 60px; /*bottom padding */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-link {
+  text-decoration: none;
+  color: #271a20;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.name-link:hover {
+  background-color: #f8e6ef;
+  color: #6c0840;
+}
+p {
+  font-size: 4rem;
+  line-height: 1.6; /*space*/
+}
+.table {
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 0 auto;
+}
+footer {
+  background-color: #6c0808; /* matches your palette */
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.9rem;
+}
+
+footer a.footer-link {
+  color: #f8e6ef;
+  /* text-decoration: none; */
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+footer a.footer-link:hover {
+  color: #ffd1e6;
+}

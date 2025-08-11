@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #4f2121;
+}
+
+header {
+  background-color: #4f2121;
+  color: white;
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #9e1153;
+  color: white; /*tekst*/
+  padding: 12px 24px; /* ichki space */
+  text-decoration: none; /*underline o'chirish*/
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #660c36;
+  transform: scale(1.05); /*zoom*/
+}
+
+h1.script {
+  font-family: "Great Vibes";
+  font-size: 3.5rem;
+  color: #d63384;
+  text-align: center;
+}
+
+.name-link {
+  text-decoration: none; /*underline*/
+  color: #9d0c50;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.name-link:hover {
+  background-color: #f8e6ef;
+  color: #6c0840;
+}
